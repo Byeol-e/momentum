@@ -1,0 +1,29 @@
+.categories {
+    left: 1030px;
+    top: 60px;
+    position: absolute;
+    font-weight: 600;
+    
+}
+
+
+.categories span {
+    width:  65px;
+    height: 40px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding:5px 5px;
+    background-color: #EAEAEA;
+    opacity: 40%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+    opacity: 100%;
+}
+
+.categories span:first-child {
+    opacity: 70%;
+}

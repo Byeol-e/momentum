@@ -1,0 +1,56 @@
+.contents-r {
+    left: 330px;
+    top: 20px;
+    width:  700px;
+    height: 600px;
+    border-radius: 30px;
+    position: absolute;
+    padding:35px 35px;
+    background-color: #EAEAEA;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 370px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+#todo-form input {
+    border-style: none;
+    width: 90%;
+    padding: 10px 10px;
+    font-size: medium;
+}
+
+#todo-list {
+    padding: auto 10px;
+}
+
+#todo-list span, button {
+    font-size: medium;
+    display: inline;
+    border: none;
+    background: none;
+}
+
+#quote {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#quote span {
+    display: flex;
+    flex-direction: column;
+}

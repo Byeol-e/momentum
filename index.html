@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+ </head>
+ <body>
+
+   <div class="contents-l">
+
+      <div class="photo"></div>
+      
+      <form id="login-form" class="hidden">
+         <input required maxlength="15" type="text" placeholder="What is your name?" />
+         <!--<input type="submit" value="Log In" />-->
+      </form>
+      
+      <h1 id="greeting" class="hidden"></h1>
+      <span class="logout">Reset<i class="fas fa-play"></i></span>
+      
+      <h2 id="clock">00:00:00</h2>
+      
+      <h2 class="weather-header"><i class="fas fa-map-marker"></i> Today's Weather</h2>
+      <div id="weather">
+         <span></span>
+         <span></span>
+      </div>
+   </div>
+
+   <div class="contents-r">
+
+      <h2><i class="fas fa-folder"></i> To Do List</h2>
+      <div class="forms">
+         <form id="todo-form">
+            <input type="text" placeholder="Write To Dos and Press Enter." required />
+         </form>   
+         <ul id="todo-list"></ul>
+      </div>
+
+      <h2><i class="fas fa-comment"></i> Today's Quotes..</h2>
+      <div id="quote">
+         <span></span>
+         <span></span>
+      </div>
+
+   </div>
+
+   <div class="categories">
+      <span>Home</span>
+      <span>Profile</span>
+      <span>Diary</span>
+      <span>Photo</span>
+      <span>Setting</span>
+   </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+   
+
+ </body>
+ </html>
